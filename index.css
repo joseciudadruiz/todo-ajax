@@ -1,0 +1,55 @@
+body {
+  font-family: Bookman, URW Bookman L, serif;
+  font-size: 20px;
+  align-items: center;
+  text-align: center;
+}
+.container {
+  border: 1px;
+  border-color: rgba(89, 89, 89, 0.5);
+  border-style: solid;
+  background-color: rgb(230, 230, 230);
+}
+h1 {
+  align-items: center;
+  text-align: center;
+  color: rgb(89, 89, 89);
+  font-size: 45px;
+}
+h1:hover {
+  color: rgb(140, 140, 140);
+}
+#new-content {
+  align-items: center;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+button {
+  color: rgb(89, 89, 89);
+}
+#to-do {
+  align-items: center;
+  text-align: center;
+}
+.delete {
+  margin-right: 5px;
+}
+.row {
+  padding-bottom: 25px;
+}
+#aditional, ul, li {
+  font-size: 15px;
+  display: inline-block;
+  padding-right: 10px;
+}
+.filter-button {
+  border: none;
+  background-color: transparent;
+}
+.filter-button:hover {
+  color: rgb(140, 140, 140);
+}
+.filter-button:focus {
+  color: rgb(140, 140, 140);
+}
